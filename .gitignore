@@ -1,0 +1,22 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.py[cod]
+assistant.env
+clubdeck.config.json
+clubdeck.secrets.json
+data/
+assistant_recordings/
+models/
+third_party/
+recordings/
+transcripts/
+logs/
+*.cookies.txt
+cache/
+tests/*.log
+tests/asr_model_compare.txt
+
+# Local recordings and logs
+/capture.wav
+/*.log
